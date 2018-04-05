@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20sp"
+    android:layout_marginLeft="25dp"
+    tools:context="mybloodapp.nestedmango.com.mybloodapp.bloodDonorData"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/buttonSaveData"
+        android:layout_alignEnd="@+id/editTextDob"
+        android:layout_alignRight="@+id/editTextDob"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:text="bloodDonor" />
+
+    <EditText
+        android:id="@+id/editTextBloodDonorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editTextDonortimes"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/editTextDonortimes"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:layout_marginTop="37dp"
+        android:ems="10"
+        android:hint="Blood Donor Name "
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextMobileNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/editTextBloodDonorName"
+        android:layout_alignStart="@+id/editTextBloodDonorName"
+        android:layout_below="@+id/spinner2"
+        android:layout_marginTop="23dp"
+        android:ems="10"
+        android:hint="MobileNumber"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/spinnerBloodGrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextBloodDonorName"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:autofillHints="BloodGroup" />
+
+    <Spinner
+        android:id="@+id/spinnerGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinnerBloodGrp"
+        android:layout_marginTop="12dp"
+        android:autofillHints="Gender" />
+
+    <EditText
+        android:id="@+id/editTextDonortimes"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/spinner2"
+        android:layout_alignStart="@+id/spinner2"
+        android:layout_below="@+id/editTextDob"
+
+
+        android:ems="10"
+        android:hint="No. of times blood given"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextDob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/editTextMobileNum"
+        android:layout_alignRight="@+id/editTextMobileNum"
+        android:layout_below="@+id/editTextMobileNum"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="11dp"
+        android:ems="10"
+        android:hint="DOB"
+        android:inputType="date" />
+
+    <Button
+        android:id="@+id/buttonSaveData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:layout_toLeftOf="@+id/textView2"
+        android:layout_toStartOf="@+id/textView2"
+        android:paddingTop="20sp"
+        android:text="Save Data" />
+
+</LinearLayout>

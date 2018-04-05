@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "979225050497",
+    "firebase_url": "https://mybloodapp-213f8.firebaseio.com",
+    "project_id": "mybloodapp-213f8",
+    "storage_bucket": "mybloodapp-213f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:979225050497:android:bde041d3233e4fd3",
+        "android_client_info": {
+          "package_name": "mybloodapp.nestedmango.com.mybloodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "979225050497-6e0t33kcdh71jndo7tvr7h1853s3u3i2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mybloodapp.nestedmango.com.mybloodapp",
+            "certificate_hash": "06efe284b6e848a91a0c2514b234c04b0bdd6eb2"
+          }
+        },
+        {
+          "client_id": "979225050497-5p97o159cnt4t2bd3bnimecdiddoknr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg2-rTIY6utUBcIJxmyi1KSDm0QQvQOXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "979225050497-5p97o159cnt4t2bd3bnimecdiddoknr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
